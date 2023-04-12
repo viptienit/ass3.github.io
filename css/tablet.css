@@ -1,0 +1,220 @@
+
+/* icon */
+.icon  {
+	color: #228be6;
+}
+.icons {
+	margin-top: 30px;
+}
+
+h3 {
+	
+	color :#646464;  
+	padding: 10px 20px;
+	border-top: 1px solid #d8d8d8;
+	border-left: 1px solid #d8d8d8;
+	border-right: 1px solid #d8d8d8;
+}
+
+@media only screen and (min-width:600px) and (max-width: 768px) {
+	#banner {
+		font-size: 18px;
+		color :#969696;
+		height: 500px;
+		width: 800px;
+		background-image: linear-gradient(
+	rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+		url("../images/banner1.jpg");
+		display: grid;
+		text-align: center;
+		align-items: center;
+	}
+	.avt {
+		display: none;
+	}
+	#a {
+		display: flex;
+		padding: 0;
+		margin: 0 auto;
+		align-items: center;
+		justify-content: center; 
+	}
+	.a:last-child {
+    border-right: 1px solid #dddddd;
+  }
+	.icon  {
+		color: #228be6;
+		
+	}
+	.icons {
+		margin-top: 30px;
+	}
+	.a:link, .a:visited {
+		padding: 22px 20px;
+		padding-right: 30px;
+		border-left: 1px solid #cfcfcf;
+		text-decoration: none;
+		color:#343a40
+	}
+	.target {
+	  width: 50%;
+	}
+	.target2 {
+		padding: 40px;
+		padding-top: 80px;
+	}
+	.target1 {
+		padding-top: 80px;
+	}
+	/* kinh nghiem - ky nang */
+	.job {
+	  display: grid;
+		margin: 0 auto;
+		grid-template-columns: 310px 300px;
+		grid-template-rows: 720px 550px 380px;
+		grid-column-gap: 10px;
+ 
+		justify-content: center;
+	}
+	.exp-skill {
+		border: 1px solid #dddddd;
+		display: flex;
+		flex-direction: column;
+		margin-top: 40px;
+		box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+	}
+	h2 {
+		font-size: 18px;
+		color :#646464;  
+		margin-top: 25px;
+		margin-bottom: 5px;
+	}
+	.box-like {
+		padding-top: 30px;
+		padding-left: 20px;
+	}
+	.content-like p {
+		font-size: 14px;
+		padding-right: 50px;
+	}
+	.content-like p:last-child {
+		margin-left: 0;
+	}
+	/* chung chi giai thuong */
+  #chung-chi {
+		display: grid;
+  }
+	.img-chung-chi {
+	  width: 200px;
+	  padding-right: 20px;
+    }
+  .img-border {
+	  border-left: 1px solid rgb(218, 192, 145);
+	  padding-left: 20px;
+	  
+  }
+	
+  .chung-chi {
+	  display: grid;
+	  grid-template-columns: 200px 230px;
+	  padding-bottom: 40px;
+		grid-row-gap: 20px;
+	
+  }
+  .chung-chi:last-child {
+	  width: 450px;
+	  padding-top: 40px;
+	  border-top: 1px solid rgb(218, 192, 145);
+  }
+  .content-chung-chi {
+	  width: 200px;
+  }
+	.img-tren {
+		grid-row: 1 / 2;
+	}
+	.img-duoi {
+		display: flex;
+		flex-direction: column;
+	}
+	.content-tren {
+		margin-left: 30px;
+	}
+	/* du an */
+  .img-du-an {
+	  width: 200px;
+		height: 137px;
+	  
+  }
+
+  #container-du-an {
+		padding-top: 60px;
+	  display: grid;
+		padding-left: 0;
+	  padding-bottom: 40px;
+  }
+	
+
+  #du-an {
+	display: grid;
+	grid-template-columns: 200px 200px 200px;
+	grid-column-gap: 5px;
+  }
+	.header-du-an {
+		display: grid;
+		grid-template-columns: 80px 120px;
+		
+		padding-top: 10px;
+		
+		border-top: 1px solid #d8d8d8;
+		border-left: 1px solid #d8d8d8;
+		border-right: 1px solid #d8d8d8;
+	}
+	.header-du-an p {
+		margin-left: 5px;
+		margin-right: 20px;
+	}
+	#container-du-an h1 {
+    padding-bottom: 30px;
+	}
+	.header-du-an p:first-child {
+		padding-left: 10px;
+		margin-top: 25px;
+		margin-bottom: 50px;
+		color: #ffffff;
+		background-color: #43adff;
+		border-radius: 20px;
+		grid-row: 1 / 3;
+	}
+	.mo-ta {
+		padding-left: 7px;
+		padding-top: 10px;
+		border-top: 1px solid #d8d8d8;
+		border-left: 1px solid #d8d8d8;
+		border-right: 1px solid #d8d8d8;
+		display: grid;
+		grid-template-columns: 60px 120px;
+	}
+	h3 {
+	
+		color :#646464;  
+		padding: 10px 10px;
+		border-top: 1px solid #d8d8d8;
+		border-left: 1px solid #d8d8d8;
+		border-right: 1px solid #d8d8d8;
+	}
+	.mo-ta:last-child {
+		border-bottom: 1px solid #d8d8d8;
+	}
+	
+	#mo-ta {
+		padding-top: 8px;
+		padding-bottom: 16px;
+	}
+	.icon-footer {
+		transform: scale(2);
+		color: #43adff;
+		padding-right: 10px;
+	}
+
+
+}
